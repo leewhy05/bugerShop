@@ -1,0 +1,16 @@
+.flex{
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    grid-template-columns: repeat(2,2fr);
+}
+.card{
+ width: 30rem;
+}
+@media (max-width: 768px){
+    
+.card{
+    width: 10rem;
+   }
+}
